@@ -1,0 +1,11 @@
+using System;
+public class Example
+{
+    public static void Main()
+    {
+        int[] array = {2,6,9,7};
+        Array.Reverse(array);
+        Console.WriteLine(String.Join(',', array));
+    }
+}
+ 
